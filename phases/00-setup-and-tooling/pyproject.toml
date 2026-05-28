@@ -9,4 +9,7 @@ dependencies = [
     "jupyter>=1.1.1",
     "matplotlib>=3.10.9",
     "numpy>=2.4.6",
+    "scikit-learn>=1.8.0",
 ]
+
+# Install torch, torchaudio manually via uv pip install --torch-backend=auto
